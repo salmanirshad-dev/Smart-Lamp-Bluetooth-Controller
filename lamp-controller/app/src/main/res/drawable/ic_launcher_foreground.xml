@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Glow Aura of the bulb -->
+    <path
+        android:pathData="M54,46m-22,0a22,22 0 1,1 44,0a22,22 0 1,1 -44,0"
+        android:fillColor="#15FF9F43" />
+        
+    <!-- Main Glowing Bulb Silhouette -->
+    <!-- We will use a stroke of 4dp with rounded caps for a high-end designer look -->
+    <path
+        android:strokeWidth="4"
+        android:strokeColor="#FFC048"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M54,26 C42,26 36,35 36,46 C36,54 41,59 44,63 L44,72 L64,72 L64,63 C67,59 72,54 72,46 C72,35 66,26 54,26 Z" />
+        
+    <!-- Filament styled inside of the bulb -->
+    <path
+        android:strokeWidth="3.2"
+        android:strokeColor="#FF5E36"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M48,46 L54,40 L60,46 M54,40 L54,58 M49,54 L59,54" />
+
+    <!-- Bulb Screw Base -->
+    <path
+        android:strokeWidth="4"
+        android:strokeColor="#FFD32A"
+        android:strokeLineCap="round"
+        android:pathData="M46,77 L62,77 M48,82 L60,82 M51,87 L57,87" />
+
+    <!-- Radiant Light Rays (Designer style) -->
+    <path
+        android:strokeWidth="3"
+        android:strokeColor="#FFFFFC"
+        android:strokeLineCap="round"
+        android:pathData="M54,14 L54,19 M22,46 L27,46 M81,46 L86,46 M31,23 L35,27 M77,23 L73,27" />
+        
+</vector>
