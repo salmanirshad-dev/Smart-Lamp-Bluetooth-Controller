@@ -1,6 +1,0 @@
-{
-  "name": "Lamp Controller",
-  "description": "Control a room lamp via Arduino and HC-05 Bluetooth module with features like custom gradient themes, daily alarms, and smart dipper mode.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
